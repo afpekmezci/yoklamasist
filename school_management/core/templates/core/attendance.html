@@ -1,0 +1,4 @@
+<h1>Yoklama</h1>
+{% for att in attendance %}
+    <p>{{ att.student.user.username }} - {{ att.schedule.subject }} - {{ att.status }}</p>
+{% endfor %}
